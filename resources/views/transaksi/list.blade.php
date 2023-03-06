@@ -6,7 +6,7 @@
 
 <!-- Main Content goes here -->
 
-<a href="{{ route('transaksi.create') }}" class="btn btn-primary mb-3" style="background-color: #ffc457; color: white;">Tambah Transaksi</a>
+<a href="{{ route('transaksi.create') }}" class="btn btn-primary mb-3" style="background-color: #7e6100ef; color: white;">Tambah Transaksi</a>
 
 @if (session('message'))
 <div class="alert alert-success">
@@ -16,7 +16,7 @@
 
 <table class="table table-bordered table-stripped">
     <thead>
-        <tr style="background-color: #ffc457; color: white;">
+        <tr style="background-color: #7e6100ef; color: white;">
             <th>No</th>
             <th>Kode Invoice</th>
             <th>Pelanggan</th>
